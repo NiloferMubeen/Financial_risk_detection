@@ -29,7 +29,7 @@ EDA of both datasets were peformed separately and many meaningful insights were 
 * The dataset was split with 'TARGET' column being the target variable.
 * The important columns(top15) were selecting by feature selection method(chi2)
 * As the target column was imbalanced, SMOTE technique was used for Oversampling
-* The values in the numerical were too huge , scaled them using Satndard scaler
-* As the Target is a categorical column,Different classification algorithms were used to make the predictions.
+* The values in the numerical columns were too huge , hence the values were scaled using Satndard scaler
+* As the Target is a categorical column,different classification algorithms were used to make the predictions.
 * Finally Decision Tree was selected as the ideal model based on the Evaluation metrics.
 * The model was then saved as a pickle file for making future predictions.
